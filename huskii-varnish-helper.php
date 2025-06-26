@@ -3,7 +3,7 @@
  * Plugin Name: Huskii - Varnish Helper
  * Plugin URI: https://github.com/HuskiiBE/Huskii-Plugin-Varnish-Helper
  * Description: Prevent Varnish caching on specific WordPress content types (pages, templates, CPTs, posts, etc.)
- * Version: 2.5.5
+ * Version: 2.5.6
  * Author: Christophe Vanleeuw
  * Author URI: https://huskii.be
  * Text Domain: huskii-varnish-helper

@@ -1,5 +1,8 @@
 # Changelog
 
+## [2.5.6] - 2025-06-26
+- Updating readme.txt to match plugin version
+
 ## [2.5.5] - 2025-06-26
 - Translated all Info and Support content to English
 - Minor wording improvements in UI labels and descriptions

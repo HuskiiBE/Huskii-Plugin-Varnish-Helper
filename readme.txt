@@ -1,9 +1,9 @@
 === Huskii - Varnish Helper ===
-Contributors: christophevanleeuw
-Tags: varnish, cache, admin, combell, performance
+Contributors: Christophe Vanleeuw
+Tags: varnish, cache, admin, performance
 Requires at least: 6.0
 Tested up to: 6.5
-Stable tag: 2.5.3
+Stable tag: 2.5.6
 License: MIT
 License URI: https://opensource.org/licenses/MIT
 
