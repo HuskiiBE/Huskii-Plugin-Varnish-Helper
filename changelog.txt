@@ -1,0 +1,5 @@
+# Changelog
+
+## [1.0.0] - First release
+- Added admin bar button to manually flush Varnish cache via varnishadm.
+- Uses environment variables to configure CLI access.
