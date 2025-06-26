@@ -1,27 +1,21 @@
 === Huskii - Varnish Helper ===
 Contributors: christophevanleeuw
-Tags: varnish, cache, admin, combell
+Tags: varnish, cache, admin, combell, performance
 Requires at least: 6.0
 Tested up to: 6.5
-Stable tag: 1.0.0
+Stable tag: 2.5.3
 License: MIT
 License URI: https://opensource.org/licenses/MIT
 
-Huskii plugin that helps clear Varnish cache manually on Combell servers from the WordPress admin dashboard.
+Prevent Varnish caching on selected pages, templates, archives, and CPTs. Includes export/import and admin UI.
 
 == Description ==
-Adds an admin bar button to manually flush the Varnish cache using varnishadm.
-This plugin is tailored for Combell hosting environments with Varnish CLI access.
+Adds admin UI to selectively exclude content types from Varnish caching using no-cache headers.
 
 == Installation ==
-1. Upload the plugin to `/wp-content/plugins/huskii-varnish-helper`
-2. Create a `.env` file in the root of the plugin with the required VARNISH_ variables.
-3. Activate the plugin.
-4. Use the admin bar button "Flush Varnish" to clear the cache.
+1. Upload plugin to `/wp-content/plugins/huskii-varnish-helper`
+2. Activate the plugin
+3. Configure your settings under “Varnish Helper” in the admin sidebar
 
 == Changelog ==
-= 1.0.0 =
-* Initial release with adminbar integration and CLI flush via `varnishadm`.
-
-== Author ==
-Christophe Vanleeuw – https://huskii.be
+See changelog.txt for detailed release notes.

@@ -1,0 +1,5 @@
+* text=auto
+*.php linguist-language=PHP
+*.md text
+*.json text
+*.txt text

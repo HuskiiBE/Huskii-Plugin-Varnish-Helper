@@ -1,0 +1,14 @@
+{
+  "name": "huskii/varnish-helper",
+  "description": "Prevent Varnish caching for selected pages, templates, CPTs in WordPress.",
+  "type": "wordpress-plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Christophe Vanleeuw",
+      "email": "christophe.vanleeuw@huskii.be",
+      "homepage": "https://huskii.be"
+    }
+  ],
+  "require": {}
+}

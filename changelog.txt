@@ -1,5 +1,45 @@
 # Changelog
 
-## [1.0.0] - First release
-- Added admin bar button to manually flush Varnish cache via varnishadm.
-- Uses environment variables to configure CLI access.
+## [2.5.5] - 2025-06-26
+- Translated all Info and Support content to English
+- Minor wording improvements in UI labels and descriptions
+
+## [2.5.4] - 2025-06-26
+- Select2 assets now loaded locally (no more external CDN dependency)
+- Included missing LICENSE, .gitattributes, .gitignore, and README files
+- Improved GitHub compatibility for Composer-based installs
+
+## [2.5.3] - 2025-06-26
+- Fixed fatal error on plugin load (user functions loaded too early)
+- Rearranged submenu order: Info now appears first
+- Added Support and Info admin pages
+- Full English translation of menu structure
+
+## [2.5.2]
+- Fixed fatal error when calling current_user_can() too early
+- Wrapped menu registration in safe hooks
+
+## [2.5.1]
+- Added support and info pages
+- Composer compatibility added via composer.json
+- Instruction text added above all Select2 fields
+
+## [2.5.0]
+- Added support for selecting individual posts (any post type)
+- Switched General page to native checkbox input
+
+## [2.4.0]
+- Replaced checkbox UIs with Select2 multi-select dropdowns
+- Improved usability for large lists (pages, posts, templates)
+
+## [2.3.0]
+- Added Export/Import functionality (JSON)
+
+## [2.2.0]
+- Support for excluding CPT archive pages from caching
+
+## [2.1.0]
+- Split configuration UI across separate admin submenu pages
+
+## [2.0.0]
+- Initial version with full cache exclusion logic for pages, templates, CPTs
